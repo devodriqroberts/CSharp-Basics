@@ -1,0 +1,11 @@
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/bin/Debug/netcoreapp2.1/CSharp-Basics.deps.json
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/bin/Debug/netcoreapp2.1/CSharp-Basics.runtimeconfig.json
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/bin/Debug/netcoreapp2.1/CSharp-Basics.runtimeconfig.dev.json
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/bin/Debug/netcoreapp2.1/CSharp-Basics.dll
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/bin/Debug/netcoreapp2.1/CSharp-Basics.pdb
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/obj/Debug/netcoreapp2.1/CSharp-Basics.csprojAssemblyReference.cache
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/obj/Debug/netcoreapp2.1/CSharp-Basics.csproj.CoreCompileInputs.cache
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/obj/Debug/netcoreapp2.1/CSharp-Basics.AssemblyInfoInputs.cache
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/obj/Debug/netcoreapp2.1/CSharp-Basics.AssemblyInfo.cs
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/obj/Debug/netcoreapp2.1/CSharp-Basics.dll
+/Users/devodriqroberts/Desktop/Software-Development/TTH-CSharp/CSharp-Basics/Program/obj/Debug/netcoreapp2.1/CSharp-Basics.pdb
