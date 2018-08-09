@@ -9,36 +9,63 @@ namespace Basics.FitnessFrog {
 
         static void Main() 
         {
-                int runningTotal = 0;
-                bool keepGoing = true;
+                var runningTotal = 0.0;
 
-            while (keepGoing) 
+            while (true) 
             {
                 //Prompt the user for minutes exercised
                 Console.Write("Enter how many minutes you exercised or type \"quit\" to exit: ");
 
                 //returns what the user typed
-                string entry = Console.ReadLine();
+                var entry = Console.ReadLine();
+                
 
                 //Repeat until user quits
                 if (entry.ToLower() == "quit") 
                 {
-                    keepGoing = false;
-                    
-                } else 
+                    Console.WriteLine("Goodbye");
+                    break;
+                } 
+               
+                var minutes = 0.0;
+
+                try 
                 {
-                    
+                    minutes = double.Parse(entry);
+
+                    if (minutes <= 0) 
+                    {
+                    Console.WriteLine($"{minutes} is not an exceptable number.");
+                    continue;
+                    }
+                    else if (minutes <= 10) 
+                    {
+                    Console.WriteLine("Better than nothing, am I right?");
+                    }
+                    else if (minutes <= 30)
+                    {
+                    Console.WriteLine("Way to go!");
+                    } 
+                    else 
+                    {
+                    Console.WriteLine("Ok, now you're just showing off.");
+                    }
+                } 
+                catch (FormatException)
+                {
+                    Console.WriteLine("Sorry, that was not a valid input");
+                    continue;
+                }
+
                 //Add minute exercised to total
-                runningTotal += int.Parse(entry);
+                runningTotal += double.Parse(entry);
 
                 //Display total minutes exercised to the scren
                 Console.WriteLine($"You've exercised {runningTotal} minutes");
 
                 }
 
-                
-            }
-            Console.WriteLine("Goodbye");
+            
         }
     }
 }
